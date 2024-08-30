@@ -1,3 +1,18 @@
-.index-title {
-  font-size: 100px;
+.banner {
+  .container {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 621px;
+    padding: 61px;
+  }
+
+  @include media-breakpoint-down(lg) {}
+
+  @include media-breakpoint-down(sm) {
+    .container {
+      background-image: url("../images/banner-sm.png");
+      padding: 0px;
+    }
+  }
 }

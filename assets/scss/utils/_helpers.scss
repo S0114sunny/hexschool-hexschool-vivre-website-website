@@ -7,6 +7,7 @@ a.btn-filled {
     text-decoration: none;
     text-align: center;
     display: inline-block;
+    vertical-align: middle;
 
     &:hover {
         background-color: $accent-300;
@@ -14,5 +15,9 @@ a.btn-filled {
 
     &.disabled {
         background-color: $neutral-200;
+    }
+
+    @include media-breakpoint-down(lg) {
+        padding: 12px 20px;
     }
 }
