@@ -1,0 +1,18 @@
+a.btn-filled {
+    border-radius: 100px;
+    padding: 16px 24px;
+    color: $neutral-100;
+    background-color: $accent-200;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+
+    &:hover {
+        background-color: $accent-300;
+    }
+
+    &.disabled {
+        background-color: $neutral-200;
+    }
+}

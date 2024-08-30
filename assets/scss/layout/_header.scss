@@ -1,4 +1,80 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.header {
+  .navbar-brand {
+    background-image: url("../images/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    width: 95.33px;
+    height: 27.72px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  form {
+    input {
+      width: 276px;
+      padding: 12px 20px;
+
+      &::placeholder {
+        color: $neutral-300;
+      }
+    }
+  }
+
+  .navbar-toggler[aria-expanded="false"] {
+    .bi-x-lg {
+      display: none;
+    }
+
+    .navbar-toggler-icon {
+      font-size: 16px;
+      display: block;
+    }
+  }
+
+  .hide-navbar-btn[aria-expanded="true"] {
+
+    .bi-x-lg {
+      font-size: 20px;
+      display: block;
+    }
+
+    .navbar-toggler-icon {
+      display: none;
+    }
+  }
+
+  ul {
+    align-items: center;
+
+    .nav-link.h6:hover {
+      color: $accent-300;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+
+    .navbar-toggler {
+      margin-left: auto;
+    }
+
+    form {
+      input {
+        width: 100%;
+        padding: 8px 20px;
+      }
+    }
+
+    ul {
+      align-items: normal;
+      justify-content: start;
+
+      a.btn-filled {
+        margin-top: 24px;
+        width: 100%;
+        padding: 12px;
+      }
+    }
+  }
 }
