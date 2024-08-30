@@ -45,6 +45,16 @@
     }
   }
 
+  .navbar-collapse {
+    &.collapsing {
+      margin-top: 24px;
+    }
+
+    &.collapse.show {
+      margin-top: 24px;
+    }
+  }
+
   ul {
     align-items: center;
 
@@ -52,6 +62,7 @@
       color: $accent-300;
     }
   }
+
 
   @include media-breakpoint-down(lg) {
 
