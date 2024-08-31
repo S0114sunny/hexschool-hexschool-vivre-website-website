@@ -7,8 +7,6 @@
     padding: 61px;
   }
 
-  @include media-breakpoint-down(lg) {}
-
   @include media-breakpoint-down(sm) {
     .container {
       background-image: url("../images/banner-sm.png");
@@ -42,4 +40,55 @@
       }
     }
   }
+}
+
+.activity {
+  background-color: $primary-200;
+  position: relative;
+  overflow: hidden;
+
+  .container::after {
+    content: "";
+    position: absolute;
+    background-image: url("../images/bg-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 196px;
+    bottom: -8px;
+    right: 0;
+  }
+
+  ul {
+    i {
+      font-weight: 600;
+      font-size: 1rem;
+      color: $neutral-400;
+      font-style: normal;
+
+      &::before {
+        font-weight: 600;
+        margin-right: 12px;
+      }
+    }
+  }
+
+  img {
+    transform: translateY(10px);
+  }
+
+  @include media-breakpoint-down(lg) {
+    h4 {
+      color: $accent-200;
+    }
+
+    .container::after {
+      width: 160px;
+      height: 104px;
+      right: -24px;
+      background-image: url("../images/bg-2-sm.png");
+    }
+  }
+
+  @include media-breakpoint-down(sm) {}
 }
