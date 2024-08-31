@@ -19,12 +19,27 @@
 
 .topics {
   .card {
+    border: 0;
     border-radius: 20px 0px 20px 0px;
     overflow: hidden;
-    opacity: 60%;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0;
+      background: $neutral-400;
+    }
 
     &:hover {
-      opacity: 100%;
+      &::before {
+        opacity: 40%;
+      }
     }
   }
 }
