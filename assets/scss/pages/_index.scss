@@ -42,6 +42,118 @@
   }
 }
 
+.article {
+  .pagination {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    .swiper-pagination-custom {
+      width: auto;
+    }
+
+    @include media-breakpoint-down(lg) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 12px;
+    }
+
+  }
+
+  .swiper .swiper-slide {
+    border-bottom: 1px solid $neutral-500;
+    padding-bottom: 32px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 192px;
+      object-fit: cover;
+    }
+
+    h5 {
+      margin-top: 24px;
+      font-weight: 900;
+    }
+
+    p {
+      &.content {
+        margin-top: 8px;
+        font-weight: 600;
+        color: $neutral-400;
+        margin-bottom: 32px;
+      }
+
+      &.only-member {
+        background: $primary-300;
+        padding: 4px 8px;
+        font-weight: 700;
+      }
+
+    }
+
+    a {
+      font-size: 20px;
+      line-height: 2;
+      color: $accent-200;
+      text-decoration: none;
+      font-weight: 700;
+
+      &:hover {
+        color: $accent-300
+      }
+    }
+  }
+
+  .swiper-pagination {
+    width: 232px;
+    position: relative;
+  }
+
+  .swiper-pagination::after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background-color: #6c757d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .swiper-prev,
+  .swiper-next {
+    width: 56px;
+    height: 32px;
+
+    &:hover {
+      background-color: #6c757d;
+      color: #ffffff;
+    }
+  }
+
+  .swiper-button-disabled {
+    color: #dee2e6;
+    border-color: #dee2e6 !important;
+  }
+
+  .swiper-button-disabled:hover {
+    cursor: default;
+    background-color: initial !important;
+  }
+
+  .swiper-next:hover {
+    background-color: #6c757d;
+    color: #DEE2E6;
+  }
+
+}
+
+
 .activity {
   background-color: $primary-200;
   position: relative;
@@ -57,6 +169,10 @@
     height: 196px;
     bottom: -8px;
     right: 0;
+  }
+
+  h2 {
+    letter-spacing: 0.2rem;
   }
 
   ul {
@@ -80,6 +196,7 @@
   @include media-breakpoint-down(lg) {
     h4 {
       color: $accent-200;
+
     }
 
     .container::after {

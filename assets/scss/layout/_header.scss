@@ -15,6 +15,7 @@
     input {
       width: 276px;
       padding: 12px 20px;
+      border: 1px solid $neutral-200;
 
       &::placeholder {
         color: $neutral-300;
