@@ -9,6 +9,10 @@
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
+
+    @include media-breakpoint-down(lg) {
+      background-image: url("../images/logo-sm.svg");
+    }
   }
 
   form {
