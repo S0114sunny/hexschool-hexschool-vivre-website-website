@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivre</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script type="module" crossorigin src="/hexschool-vivre-website/assets/main-11d346d1.js"></script>
+  <link rel="stylesheet" href="/hexschool-vivre-website/assets/main-9388e565.css">
+</head>
+
+<body>
+  <nav class="header container navbar navbar-expand-lg navbar-light bg-primary-100 py-7 border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand text-neutral-500 me-7" href="#" aria-expanded="false">Vivre</a>
+
+    <button class="navbar-toggler border-0 hide-navbar-btn " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <span class="bi bi-x-lg"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 w-100 gap-4">
+        <li class="nav-item me-0 me-lg-auto">
+          <form class="d-flex position-relative">
+            <input class="rounded-5" type="search" placeholder="搜尋文章" aria-label="Search">
+            <a class="position-absolute top-50 end-0 translate-middle" href="#">
+              <i class="bi bi-search text-accent-200 fs-5"></i></a>
+          </form>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4 py-1 h6 fw-bold" aria-current="page" href="#">所有文章</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4 py-1 h6 fw-bold" href="#">訂閱方案</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4 py-1 h6 fw-bold" href="#">關於我們</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn-filled fw-bold" href="#">登入 / 註冊</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <section class="banner py-0 py-lg-10">
+    <div class="container text-white d-flex flex-column align-items-center align-items-lg-start justify-content-end justify-content-lg-center pb-9 py-lg-0">
+      <p class="fs-6 fs-lg-5 mb-2">獻給新世代的生活風格誌</p>
+      <h1 class="mb-4 fs-3 fs-lg-1">一起探索生活的無限可能</h1>
+      <a href="#" class="btn-filled fs-6 fs-lg-5">馬上訂閱<i class="bi bi-arrow-right ms-2 fs-5"></i></a>
+    </div>
+  </section>
+
+  <section class="topics py-9 py-lg-10">
+    <div class="container">
+      <h2 class="fs-4 fs-lg-2 mb-5 fw-900">熱門主題</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-1 g-lg-4">
+        <div class="col">
+          <a href="#" class="card">
+            <h5 class="fs-6 fs-lg-5 position-absolute top-50 start-50 translate-middle text-white d-block">城市漫遊者</h5>
+            <picture>
+              <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/theme-1-c3f2428d.png ">
+              <img class="w-100" src="/hexschool-vivre-website/assets/theme-1-sm-e28ce55e.png" alt="">
+            </picture>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#" class="card">
+            <h5 class="fs-6 fs-lg-5 position-absolute top-50 start-50 translate-middle text-white">秘境尋蹤人</h5>
+            <picture>
+              <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/theme-3-6a361920.png ">
+              <img class="w-100" src="/hexschool-vivre-website/assets/theme-3-sm-03d78e75.png" alt="">
+            </picture>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#" class="card">
+            <h5 class="fs-6 fs-lg-5 position-absolute top-50 start-50 translate-middle text-white">品味設計家</h5>
+            <picture>
+              <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/theme-5-b39e8856.png ">
+              <img class="w-100" src="/hexschool-vivre-website/assets/theme-5-sm-65d802c3.png" alt="">
+            </picture>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#" class="card">
+            <h5 class="fs-6 fs-lg-5 position-absolute top-50 start-50 translate-middle text-white">美食探險記</h5>
+            <picture>
+              <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/theme-8-ce962716.png ">
+              <img class="w-100" src="/hexschool-vivre-website/assets/theme-8-sm-402e892b.png" alt="">
+            </picture>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#" class="card">
+            <h5 class="fs-6 fs-lg-5 position-absolute top-50 start-50 translate-middle text-white">美學建築誌</h5>
+            <picture>
+              <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/theme-2-f68e2e55.png ">
+              <img class="w-100" src="/hexschool-vivre-website/assets/theme-2-sm-2123bacc.png" alt="">
+            </picture>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#" class="card">
+            <h5 class="fs-6 fs-lg-5 position-absolute top-50 start-50 translate-middle text-white">慢活生活行</h5>
+            <picture>
+              <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/theme-4-3688ebf7.png ">
+              <img class="w-100" src="/hexschool-vivre-website/assets/theme-4-sm-0dfc8cb3.png" alt="">
+            </picture>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#" class="card">
+            <h5 class="fs-6 fs-lg-5 position-absolute top-50 start-50 translate-middle text-white">工藝匠心賞</h5>
+            <picture>
+              <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/theme-6-82f2b629.png ">
+              <img class="w-100" src="/hexschool-vivre-website/assets/theme-6-sm-fed41742.png" alt="">
+            </picture>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#" class="card">
+            <h5 class="fs-6 fs-lg-5 position-absolute top-50 start-50 translate-middle text-white">時尚先鋒派</h5>
+            <picture>
+              <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/theme-7-88f0cd69.png ">
+              <img class="w-100" src="/hexschool-vivre-website/assets/theme-7-sm-0e3e7b41.png" alt="">
+            </picture>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="article py-9 py-lg-10">
+    <div class="container">
+      <div class="row position-relative py-9 py-lg-0">
+        <div class="col-lg-4">
+          <h2 class="fs-4 fs-lg-2 mb-5 fw-900">精選文章</h2>
+          <div class="pagination container">
+            <div class="swiper-pagination-custom mb-0 mb-lg-5"></div>
+            <div class="swiper-pagination d-flex justify-content-between align-items-center">
+              <div class="swiper-prev border border-1 rounded-5"><i class="bi bi-arrow-left fs-4"></i></div>
+              <div class="swiper-next border border-1 rounded-5"><i class="bi bi-arrow-right fs-4"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="swiper swiper-articles mb-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture>
+                  <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/articles-1-ebc46e31.png ">
+                  <img class="rounded-1" src="/hexschool-vivre-website/assets/articles-1-sm-203688b1.png" alt="私人島嶼的露營奇遇記">
+                </picture>
+                <h5>私人島嶼的露營奇遇記</h5>
+                <p class="content">遠離塵囂,用全新的眼光重塑生活的舒適本味。徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧靜安詳...</p>
+                <a class="text-link" href="#">Read More</a>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/articles-2-05d8b79f.png ">
+                  <img class="rounded-1" src="/hexschool-vivre-website/assets/articles-2-sm-30531557.png" alt="窺探米其林三星主廚的絕密手藝">
+                </picture>
+                <h5>窺探米其林三星主廚的絕密手藝</h5>
+                <p class="content">在這間隱世餐廳,來一場味蕾與靈魂的盛宴。幽微燈火下,透過巨匠大師的獨門料理,領略食材中蘊藏的大自然馨香脈絡。營造只屬於你我的私密小宇宙,沉浸其中,品嘗人生至臻至美的風味...</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a class="text-link" href="#">Read More</a>
+                  <p class="tag">會員專屬</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/articles-1-ebc46e31.png ">
+                  <img class="rounded-1" src="/hexschool-vivre-website/assets/articles-1-sm-203688b1.png" alt="私人島嶼的露營奇遇記">
+                </picture>
+                <h5>私人島嶼的露營奇遇記</h5>
+                <p class="content">遠離塵囂,用全新的眼光重塑生活的舒適本味。徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧靜安詳...</p>
+                <a class="text-link" href="#">Read More</a>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source media="(min-width: 576px)" srcset="/hexschool-vivre-website/assets/articles-2-05d8b79f.png ">
+                  <img class="rounded-1" src="/hexschool-vivre-website/assets/articles-2-sm-30531557.png" alt="窺探米其林三星主廚的絕密手藝">
+                </picture>
+                <h5>窺探米其林三星主廚的絕密手藝</h5>
+                <p class="content">在這間隱世餐廳,來一場味蕾與靈魂的盛宴。幽微燈火下,透過巨匠大師的獨門料理,領略食材中蘊藏的大自然馨香脈絡。營造只屬於你我的私密小宇宙,沉浸其中,品嘗人生至臻至美的風味...</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a class="text-link" href="#">Read More</a>
+                  <p class="tag">會員專屬</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="activity">
+    <div class="container container-lg  py-9 py-lg-10 d-flex flex-column align-items-center position-relative">
+      <h4 class="fs-6 fs-lg-4 mb-2 mb-lg-4">\ 母親節強檔活動 /</h4>
+      <h2 class="fs-5 fs-lg-2 fw-bold mb-5 mb-lg-4">家庭訂閱方案限時 7 折</h2>
+      <ul class="d-flex flex-column gap-3 mb-5 mb-lg-8">
+        <li>
+          <i class="bi bi-check">每月最新文章無限閱讀</i>
+        </li>
+        <li>
+          <i class="bi bi-check">專屬會員限定內容</i>
+        </li>
+        <li>
+          <i class="bi bi-check">定期電子報</i>
+        </li>
+        <li>
+          <i class="bi bi-check">年度精選禮物</i>
+        </li>
+        <li>
+          <i class="bi bi-check">24 /7 優先客戶服務</i>
+        </li>
+        <li>
+          <i class="bi bi-check">為每個成員量身打造專屬行程</i>
+        </li>
+      </ul>
+      <a href="#" class="btn-filled fs-6 fs-lg-5 fw-bold">我想了解</a>
+      <img class="position-absolute bottom-0 start-0 d-none d-lg-block" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANkAAABRCAYAAABfXQPDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAoJSURBVHgB7Z1bbBxXGcf/3+z4IgdXa2onShMap4i2eajYiFbAQ5V1SxLCAyGVkBABkiCB6ANq8gACiSoxN6EKlOQJFYTqiAoeUIktqJI4UC/wEqmELOpDaSWIIyBpnKR249hJ7J35es6sd7NnveudXc/eZr6ftNq5nGmdn/Y75zuXmSE0EZ4+GcfimkGXKGnB3cTAIPSHEAd72yaESTBNqitnCJh0YV2ygDQNbE8hBIgPk7D4IDQYvnY2qb62MVh9609QUIpBYxZzitbuSKNNEB8mYfTRkCDjqfEEiHYz8UEwx1FvVI1GjFHY7nHq2zWJFkN8mITdR12DTNdKqkY6HGyNVDWjBOt4K6RQreGDUgQaFh856u+jLkHWIsFlomsvxA5R/6dG0WDEh0nUfAQaZC0pbzmjZLuHGpEmiA+TqPoIJMi8UaBMz2E1+nMQbYJKIY+oFGEYdUB8mETdx6qDjKfHE+zwyZJDqq2OThFi7lCQtZb4MBEfgIVVwDfGn+MMX2hLgRr1d3PGuuC8czqQGlZ8FP3nxIdHzS0ZXztztJ2a/0qsNj0QHybio/DaKtH5NWfWnGzxzmtNMNFIrH/HgaquER/mNeJjGVUFWVZgz4TaTCC8pMmeV3n4nplKBcWHifgoje8gi4jAHBVFig8T8VEe3wMfERKoSbjOmqMrFRAfJuKjPL6CTHdiER2BHsS8X02elhQpPkzEx8pUDDK+caatJhGDhOEeLB6+FR/iI0cpH6VYsU/mTSTqeY5oM0O2u1VPSIoPD/FhkvdRrkDZIPM6sk5P+04kBovX0RUfecSHSdoa2Lm13Mny6WKm57AIzJOQH5SB+DBJOFfPHCl3smRLxtOn9HKSixAEwTcqbdxcKm0s2ZKxY00gxHzney/iI499CcmdB/Hmvy4h6ogPk1p9cCb2Uqnjy4KMp8b3hzkN+P3Y3/CK+mj+f/k6fvTCy4gy4sNkdT44ufSMEoPlQWbpm+rCy83ZeWN/tmg/aogPk9X6yN6UamIEWdhbMc0zu5/Exg0D+f2nn/oYooz4MFmtDyZKLk5fSBYeMwY+3Gvjas6DmzZzr2uNs3/+O+67rwdbHh3Ehgf6UQ/0/+fc6296Mrc88iBaFfFh0so+2OoBdw543yqqUh09Dw7lzuWDjKdeTTDZTZtY1Pnv3gM/9L41WuAffvdj9CqhUUR8mLSqDyYL3LEBbH/AOG4vOH3Ut9lbQHwvXbQ6nkMTOfva+bxAjd5+ZeyviCriw6QVfTB1w+16aFmAaTKdVn65VT7IuMk32d28ObfsWKHUqCE+TFrNB1MH3O5NunEqeZ5A+3LbXpDxtVPJZg94bH/6cZVrrzGO7f/ypxFVxIdJq/lwu1SAUfkFU/q5/Yu3/5vU216fzLl++hgxNTVd1OiaaeTXp3Hz1jye+eyT+PgTWxBlxIdJq/hguxdu58bK5YgPdfZsOuYFWbNHFQWhnXA7+tVgx0DlgkujjBZPT8QlwAShCtj1WS57I6uFzB0JMEGoAst5D+Te9VM0vrBwMWG7oETDX1ImCO0MO7DuXoJr94Fj8eUjjLql49sgZx50+2bCVnnjoB4KEQShCnSgLaopBPXRw/mgpUDjRZD65IupUUab2PooJMoEoWa8oCoILPMkbbLVVxwNQi9BQaw3u74r1q2OxJbOOGrIRtUAziwo8x6igvgwCaMPYt2SEce5zg2ZsXiyJB2eVFaCyf6gl+/6HsGpkiuXr+L8629g29An0Vs0udkoxIdJqH0QD1pcx5UeumZyOz/kLT8pL7DoGqtbdSjvR734xc9/g+HnjyI1cQ6NRnyYRMWHjTqRXTy5sezarhWvjSnhiwgcXUv9cexP3vbjTzyGRiI+TKLkY1XvJytHpcWTlSDX8VXu7bf+A7/Mzs7hG1/9rrf9tWf3Yv0Da9EoxIdJ1HzUJcgqLZ6sBLmzFcv87IVfYu/nv+k17VcuT61YVgv81sEf4LKqqdZvWIevP/tFNBLxYRI1H7HD3/6Kvu+lGwGhF0+ymqSrFcq8q+YfblQs19XZiX+cf8PrpP725bElkYT7+/vQ1dXpldHHdPP/fSVa12pa4Iu/+gl6exvXwRcfJpHzQZghvn7mYpCDH74XT5b6e9TwrLVw2Xd5nUPrjmouj16Jhx99CD899nxD0yLN6nzMKh//810+/D7a8fdBKQp6Bb6rhli5cx2qhRauwlK1VC1omanXzuEvakTo7bf+jdmlG/z0EOzDj3wYX9i7G8mnPoFmID5MoudDBZkzdWaECPsQFBTzcm62uvyVd+cQu3ul/Ix5uyM+TCLmg5mP67WLkwiSKhZPejVTnSYVWwbxYRI1Hyq+bItokoNe8uFz8WRkEB8mEfJhIZa2seikYNdlJN9jxcWTEUR8mITeh30rbdF6/RYK8v0md0EQ/EJp/fL27NOqmMcgCEKgMCGtv7N5InEagiAEioVs4+UFmWV3jUAQhGCJzaf0lxdk1Dc0oyfNIAhCIDDRiO6P6e2Cx3S70i8ThIDIpYqae291mZ6Ic2bxotpq2OMIBCGUMCattTs353bzLZlOGRnOcQiCsCpcuMOF+8YstGV3H4MgCLWjWrGYg1ThISPIvNaMWFozQagRZpzILvC4x7L1VFas64isABGEGtB9MdcdKT68LMikbyYItaH7YsWtmKbkY/C9kcbFhQveI7wFQahM0YhiISWX3+vWjMg9ACEPsfgoRHyYkOMOlTtX9h4XGtiVkkGQLOximNbuGhEfWcSHieejRJqYo+JbkyL/Fk6yRq3+7Xtyu+JDfBgU+ShFxbs1KePs0fkmooj6d9Ni5lDhIfEhPvKU8FEKX+//46nxBBMmorXkimbUD2hrqTRAfJiIj5Xx9dwBWrsjTexUjNjwoAQyhsoJFB9FZ8XHivh+uIfu6EZjREkJdDMH9A9nxVLiwywlPspfgSrhqVP7mayXEEqWaqgqBIoPE/FR4irUgJeDg0+GarJad2JBe6oV6F0qPsxLw9hHW4WPmp4F5+XgevItLKNKDO/fU4tAjfgw8XyoQQHxkaXmBy7qTh91dG7Vq47RxujHKNPcvO9ObDnEh4n4uEdN6eKyP0Tn4bAOt1e6tNSBXfeZUQSM+DCJuo9AHh3sjSyp5rRdai2vdro1t7kePyiN+DCJuo9AWrJCeOpVNQhgt+ggAKUIzrBel4kGIT5Mougj8CDLkR3Kje1TW0k0ncb/mIoRHyZR8lG3IMvB104lXbb2B/oONF/QDLN7wiIebeaPqRjxYRIFH3UPshx88WQca7o/x2TvztZe9ZhD0eIwapFzArfupGnznpZ9jIL4MAmzj4YFWTFeDQZKEGLb1N5gTbdLECbZpRTI/acFTrdSDV0t4sMkTD6aFmSl0CsFQE4cFBvU+y7zYO6cfllhtpAziYya5LxzZ6aVa+YgEB8m7erjffVIQouHOC5TAAAAAElFTkSuQmCC" alt="">
+    </div>
+  </section>
+
+  <section class="hot-topics">
+    <div class="container py-9 py-lg-10">
+      <h2 class="fs-4 fs-lg-2 mb-5 fw-900">大家都在看</h2>
+      <div class="d-none d-xl-block">
+        <div class="row">
+          <div class="col-3">
+            <div class="nav w-100 h-100 flex-column nav-pills me-3 fs-5 gap-4 bg-white p-4" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">．酒精路跑地圖</button>
+              <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">．台北拉麵圖鑑</button>
+              <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">．海島自由行</button>
+              <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">．短天數出國推薦</button>
+              <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">．週末露營趣</button>
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="tab-content rounded-1 p-8 bg-white" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                <div class="hot-topic">
+                  <div class="p-5">
+                    <h5 class="fs-4 fs-lg5 text-accent-200 mb-2 mb-lg-5">酒精路跑地圖</h5>
+                    <ul class="hot-links d-flex flex-column fw-bold gap-1 gap-lg-4">
+                      <li><a href="#">｜城市酒吧人氣榜,盤點當紅熱門酒吧</a></li>
+                      <li><a href="#">｜你要的調酒師在這裡！五月全台酒吧客座活動整理</a></li>
+                      <li><a href="#">｜台南老宅手工酒藏,尋味百年人文釀意</a></li>
+                    </ul>
+                  </div>
+                  <div class="row row-cols-4 g-1 p-3">
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-1-4140643e.png" class="rounded-start-4" alt="hots1"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-2-0511cb4f.png" class="rounded-1" alt="hots2"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-3-1a547610.png" class="rounded-1" alt="hots3"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-4-ec19ac92.png" class="rounded-end-4" alt="hots4"></div>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center px-5 py-6">
+                    <ul class="d-flex gap-1 gap-lg-4">
+                      <li><a class="tag" href="#">#夜貓行程</a></li>
+                      <li><a class="tag" href="#">#barhopping</a></li>
+                      <li><a class="tag" href="#">#全台酒吧</a></li>
+                    </ul>
+                    <a class="text-link" href="#">View More<i class="ps-2 bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                <div class="hot-topic">
+                  <div class="p-5">
+                    <h5 class="fs-4 fs-lg5 text-accent-200 mb-2 mb-lg-5">台北拉麵圖鑑</h5>
+                    <ul class="hot-links d-flex flex-column fw-bold gap-1 gap-lg-4">
+                      <li><a href="#">｜城市酒吧人氣榜,盤點當紅熱門酒吧</a></li>
+                      <li><a href="#">｜你要的調酒師在這裡！五月全台酒吧客座活動整理</a></li>
+                      <li><a href="#">｜台南老宅手工酒藏,尋味百年人文釀意</a></li>
+                    </ul>
+                  </div>
+                  <div class="row row-cols-4 g-1 p-3">
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-1-4140643e.png" class="rounded-start-4" alt="hots1"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-2-0511cb4f.png" class="rounded-1" alt="hots2"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-3-1a547610.png" class="rounded-1" alt="hots3"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-4-ec19ac92.png" class="rounded-end-4" alt="hots4"></div>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center px-5 py-6">
+                    <ul class="d-flex gap-1 gap-lg-4">
+                      <li><a class="tag" href="#">#雞白湯</a></li>
+                      <li><a class="tag" href="#">#拉麵</a></li>
+                      <li><a class="tag" href="#">#台北美食</a></li>
+                    </ul>
+                    <a class="text-link" href="#">View More<i class="ps-2 bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                <div class="hot-topic">
+                  <div class="p-5">
+                    <h5 class="fs-4 fs-lg5 text-accent-200 mb-2 mb-lg-5">海島自由行</h5>
+                    <ul class="hot-links d-flex flex-column fw-bold gap-1 gap-lg-4">
+                      <li><a href="#">｜私島慢活島嶼生活 - 在熱帶天堂品...</a></li>
+                      <li><a href="#">｜海島漂流記 - 在陽光、沙灘和比基...</a></li>
+                      <li><a href="#">｜島嶼蹤跡 - 揭開加勒比海上世外桃...</a></li>
+                    </ul>
+                  </div>
+                  <div class="row row-cols-4 g-1 p-3">
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-1-4140643e.png" class="rounded-start-4" alt="hots1"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-2-0511cb4f.png" class="rounded-1" alt="hots2"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-3-1a547610.png" class="rounded-1" alt="hots3"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-4-ec19ac92.png" class="rounded-end-4" alt="hots4"></div>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center px-5 py-6">
+                    <ul class="d-flex gap-1 gap-lg-4">
+                      <li><a class="tag" href="#">#熱帶國家</a></li>
+                      <li><a class="tag" href="#">#海邊</a></li>
+                      <li><a class="tag" href="#">#無敵海景</a></li>
+                    </ul>
+                    <a class="text-link" href="#">View More<i class="ps-2 bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+                <div class="hot-topic">
+                  <div class="p-5">
+                    <h5 class="fs-4 fs-lg5 text-accent-200 mb-2 mb-lg-5">短天數出國推薦</h5>
+                    <ul class="hot-links d-flex flex-column fw-bold gap-1 gap-lg-4">
+                      <li><a href="#">｜72小時東京遊走 - 當個時尚東京通</a></li>
+                      <li><a href="#">｜48小時曼谷遊玩全攻略</a></li>
+                      <li><a href="#">｜三天兩夜賞櫻微醺東京</a></li>
+                    </ul>
+                  </div>
+                  <div class="row row-cols-4 g-1 p-3">
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-1-4140643e.png" class="rounded-start-4" alt="hots1"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-2-0511cb4f.png" class="rounded-1" alt="hots2"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-3-1a547610.png" class="rounded-1" alt="hots3"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-4-ec19ac92.png" class="rounded-end-4" alt="hots4"></div>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center px-5 py-6">
+                    <ul class="d-flex gap-1 gap-lg-4">
+                      <li><a class="tag" href="#">#說走就走</a></li>
+                      <li><a class="tag" href="#">#出國玩</a></li>
+                      <li><a class="tag" href="#">#東亞</a></li>
+                    </ul>
+                    <a class="text-link" href="#">View More<i class="ps-2 bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+                <div class="hot-topic">
+                  <div class="p-5">
+                    <h5 class="fs-4 fs-lg5 text-accent-200 mb-2 mb-lg-5">週末露營趣</h5>
+                    <ul class="hot-links d-flex flex-column fw-bold gap-1 gap-lg-4">
+                      <li><a href="#">｜週末說走就走露營記</a></li>
+                      <li><a href="#">｜城市野營日記</a></li>
+                      <li><a href="#">｜和寵物去露營 - 大自然之旅的雙倍...</a></li>
+                    </ul>
+                  </div>
+                  <div class="row row-cols-4 g-1 p-3">
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-1-4140643e.png" class="rounded-start-4" alt="hots1"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-2-0511cb4f.png" class="rounded-1" alt="hots2"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-3-1a547610.png" class="rounded-1" alt="hots3"></div>
+                    <div class="col"><img src="/hexschool-vivre-website/assets/hots-4-ec19ac92.png" class="rounded-end-4" alt="hots4"></div>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center px-5 py-6">
+                    <ul class="d-flex gap-1 gap-lg-4">
+                      <li><a class="tag" href="#">#戶外</a></li>
+                      <li><a class="tag" href="#">#露營控</a></li>
+                      <li><a class="tag" href="#">#凹豆</a></li>
+                    </ul>
+                    <a class="text-link" href="#">View More<i class="ps-2 bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper swiper-topics d-xl-none">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide p-3 p-lg-8">
+            <div class="hot-topic">
+              <div class="p-0 p-lg-3">
+                <h5 class="fs-4 fs-lg5 text-accent-200 mb-2 mb-lg-5">酒精路跑地圖</h5>
+                <ul class="hot-links d-flex flex-column fw-semibold fw-lg-bold gap-1 gap-lg-4">
+                  <li><a href="#">｜城市酒吧人氣榜,盤點當紅熱門酒吧</a></li>
+                  <li><a href="#">｜你要的調酒師在這裡！五月全台酒...</a></li>
+                  <li><a href="#">｜台南老宅手工酒藏,尋味百年人文釀意</a></li>
+                </ul>
+              </div>
+              <div class="row g-1 px-0 py-3 p-lg-3">
+                <div class="col">
+                  <picture>
+                    <source media="(min-width: 576px)" class="rounded-start-4" srcset="/hexschool-vivre-website/assets/hots-1-4140643e.png ">
+                    <img class="rounded-2" src="/hexschool-vivre-website/assets/hots-1-sm-d41ead80.png" alt="hots1">
+                  </picture>
+                </div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-2-0511cb4f.png" class="rounded-1" alt="hots2"></div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-3-1a547610.png" class="rounded-1" alt="hots3"></div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-4-ec19ac92.png" class="rounded-end-4" alt="hots4"></div>
+              </div>
+              <div class="d-flex flex-column flex-md-row justify-content-between align-items-center py-1 px-lg-5 py-lg-6 gap-4">
+                <ul class="d-flex gap-1 gap-lg-4">
+                  <li><a class="tag" href="#">#夜貓行程</a></li>
+                  <li><a class="tag" href="#">#barhopping</a></li>
+                  <li><a class="tag" href="#">#全台酒吧</a></li>
+                </ul>
+                <a class="text-link" href="#">View More<i class="ps-2 bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide p-3 p-lg-8">
+            <div class="hot-topic">
+              <div class="p-0 p-lg-3">
+                <h5 class="fs-4 fs-lg5 text-accent-200 mb-2 mb-lg-5">台北拉麵圖鑑</h5>
+                <ul class="hot-links d-flex flex-column fw-semibold fw-lg-bold gap-1 gap-lg-4">
+                  <li><a href="#">｜城市酒吧人氣榜,盤點當紅熱門酒吧</a></li>
+                  <li><a href="#">｜你要的調酒師在這裡！五月全台酒...</a></li>
+                  <li><a href="#">｜台南老宅手工酒藏,尋味百年人文釀意</a></li>
+                </ul>
+              </div>
+              <div class="row g-1 px-0 py-3 p-lg-3">
+                <div class="col">
+                  <picture>
+                    <source media="(min-width: 576px)" class="rounded-start-4" srcset="/hexschool-vivre-website/assets/hots-3-1a547610.png ">
+                    <img class="rounded-2" src="/hexschool-vivre-website/assets/hots-3-sm-5ceb5458.png" alt="hots1">
+                  </picture>
+                </div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-2-0511cb4f.png" class="rounded-1" alt="hots2"></div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-3-1a547610.png" class="rounded-1" alt="hots3"></div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-4-ec19ac92.png" class="rounded-end-4" alt="hots4"></div>
+              </div>
+              <div class="d-flex flex-column flex-md-row justify-content-between align-items-center py-1 px-lg-5 py-lg-6 gap-4">
+                <ul class="d-flex gap-1 gap-lg-4">
+                  <li><a class="tag" href="#">#雞白湯</a></li>
+                  <li><a class="tag" href="#">#拉麵</a></li>
+                  <li><a class="tag" href="#">#台北美食</a></li>
+                </ul>
+                <a class="text-link" href="#">View More<i class="ps-2 bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide p-3 p-lg-8">
+            <div class="hot-topic">
+              <div class="p-0 p-lg-3">
+                <h5 class="fs-4 fs-lg5 text-accent-200 mb-2 mb-lg-5">海島自由行</h5>
+                <ul class="hot-links d-flex flex-column fw-semibold fw-lg-bold gap-1 gap-lg-4">
+                  <li><a href="#">｜私島慢活島嶼生活 - 在熱帶天堂品...</a></li>
+                  <li><a href="#">｜海島漂流記 - 在陽光、沙灘和比基...</a></li>
+                  <li><a href="#">｜島嶼蹤跡 - 揭開加勒比海上世外桃...</a></li>
+                </ul>
+              </div>
+              <div class="row g-1 px-0 py-3 p-lg-3">
+                <div class="col">
+                  <picture>
+                    <source media="(min-width: 576px)" class="rounded-start-4" srcset="/hexschool-vivre-website/assets/hots-3-1a547610.png ">
+                    <img class="rounded-2" src="/hexschool-vivre-website/assets/hots-4-sm-9226d072.png" alt="hots1">
+                  </picture>
+                </div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-2-0511cb4f.png" class="rounded-1" alt="hots2"></div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-3-1a547610.png" class="rounded-1" alt="hots3"></div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-4-ec19ac92.png" class="rounded-end-4" alt="hots4"></div>
+              </div>
+              <div class="d-flex flex-column flex-md-row justify-content-between align-items-center py-1 px-lg-5 py-lg-6 gap-4">
+                <ul class="d-flex gap-1 gap-lg-4">
+                  <li><a class="tag" href="#">#熱帶國家</a></li>
+                  <li><a class="tag" href="#">#海邊</a></li>
+                  <li><a class="tag" href="#">#無敵海景</a></li>
+                </ul>
+                <a class="text-link" href="#">View More<i class="ps-2 bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide p-3 p-lg-8">
+            <div class="hot-topic">
+              <div class="p-0 p-lg-3">
+                <h5 class="fs-4 fs-lg5 text-accent-200 mb-2 mb-lg-5">短天數出國推薦</h5>
+                <ul class="hot-links d-flex flex-column fw-semibold fw-lg-bold gap-1 gap-lg-4">
+                  <li><a href="#">｜72小時東京遊走 - 當個時尚東京通</a></li>
+                  <li><a href="#">｜48小時曼谷遊玩全攻略</a></li>
+                  <li><a href="#">｜三天兩夜賞櫻微醺東京</a></li>
+                </ul>
+              </div>
+              <div class="row g-1 px-0 py-3 p-lg-3">
+                <div class="col">
+                  <picture>
+                    <source media="(min-width: 576px)" class="rounded-start-4" srcset="/hexschool-vivre-website/assets/hots-3-1a547610.png ">
+                    <img class="rounded-2" src="/hexschool-vivre-website/assets/hots-5-sm-42a757ac.png" alt="hots1">
+                  </picture>
+                </div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-2-0511cb4f.png" class="rounded-1" alt="hots2"></div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-3-1a547610.png" class="rounded-1" alt="hots3"></div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-4-ec19ac92.png" class="rounded-end-4" alt="hots4"></div>
+              </div>
+              <div class="d-flex flex-column flex-md-row justify-content-between align-items-center py-1 px-lg-5 py-lg-6 gap-4">
+                <ul class="d-flex gap-1 gap-lg-4">
+                  <li><a class="tag" href="#">#說走就走</a></li>
+                  <li><a class="tag" href="#">#出國玩</a></li>
+                  <li><a class="tag" href="#">#東亞</a></li>
+                </ul>
+                <a class="text-link" href="#">View More<i class="ps-2 bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide p-3 p-lg-8">
+            <div class="hot-topic">
+              <div class="p-0 p-lg-3">
+                <h5 class="fs-4 fs-lg5 text-accent-200 mb-2 mb-lg-5">週末露營趣</h5>
+                <ul class="hot-links d-flex flex-column fw-semibold fw-lg-bold gap-1 gap-lg-4">
+                  <li><a href="#">｜週末說走就走露營記</a></li>
+                  <li><a href="#">｜城市野營日記</a></li>
+                  <li><a href="#">｜和寵物去露營 - 大自然之旅的雙倍...</a></li>
+                </ul>
+              </div>
+              <div class="row g-1 px-0 py-3 p-lg-3">
+                <div class="col">
+                  <picture>
+                    <source media="(min-width: 576px)" class="rounded-start-4" srcset="/hexschool-vivre-website/assets/hots-3-1a547610.png ">
+                    <img class="rounded-2" src="/hexschool-vivre-website/assets/hots-2-sm-e66a826f.png" alt="hots1">
+                  </picture>
+                </div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-2-0511cb4f.png" class="rounded-1" alt="hots2"></div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-3-1a547610.png" class="rounded-1" alt="hots3"></div>
+                <div class="col d-none d-sm-block"><img src="/hexschool-vivre-website/assets/hots-4-ec19ac92.png" class="rounded-end-4" alt="hots4"></div>
+              </div>
+              <div class="d-flex flex-column flex-md-row justify-content-between align-items-center py-1 px-lg-5 py-lg-6 gap-4">
+                <ul class="d-flex gap-1 gap-lg-4">
+                  <li><a class="tag" href="#">#戶外</a></li>
+                  <li><a class="tag" href="#">#露營控</a></li>
+                  <li><a class="tag" href="#">#凹豆</a></li>
+                </ul>
+                <a class="text-link" href="#">View More<i class="ps-2 bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container text-primary-400 border-top text-center py-4 fw-semibold">©Vivre 2024 All rightReserved
+</footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiperArticles = new Swiper('.swiper-articles', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 24,
+      // Responsive breakpoints
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 48,
+        }
+      },
+      // 分頁、左右箭頭、滾動條若有使用則必需設定          
+      // 分頁   
+      pagination: {
+        el: '.swiper-pagination-custom',
+        type: "fraction"
+      },
+      // 左右箭頭    
+      navigation: {
+        nextEl: '.swiper-next',
+        prevEl: '.swiper-prev',
+      },
+    });
+
+    const swiperTopics = new Swiper('.swiper-topics', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 24,
+      // Responsive breakpoints
+      // breakpoints: {
+      //   768: {
+      //     slidesPerView: 2,
+      //     spaceBetween: 48,
+      //   }
+      // },
+    });
+  </script>
+</body>
+
+</html>
